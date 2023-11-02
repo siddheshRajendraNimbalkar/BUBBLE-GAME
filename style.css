@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&family=Roboto:wght@300&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Noto+Sans:wght@600&family=Roboto:wght@300&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.raper{
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    background: url(black-block.jpg);
+    z-index: 99;
+}
+#nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    margin: 0px -29vh;
+    
+}
+
+#nav button{
+    text-transform: uppercase;
+}
+
+.btn1{
+    height: 15vh;
+    width: 15vh;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-weight: 900;
+}
+
+.btn1:hover{
+    background-color: #D45B43;
+}
+
+.btn2{
+    height: 15vh;
+    width: 15vh;
+    background-color:  #D45B43;
+    border:0px 5px solid  #D45B43;
+    color: #fff;
+    border: none;
+    font-weight: 900;
+}
+
+.btn3{
+    height: 15vh;
+    width: 15vh;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-weight: 900;
+    padding: 0px -1px;
+}
+
+.btn3:hover{
+
+    background-color: #D45B43;
+}
+
+#page1{
+    padding: 20vh;
+    min-height:100vh;
+    width: 100%;
+    background-color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#page1 h1{
+    font-size: 25vh;
+    color: #D45B43;
+}
+
+#info-image-contaner{
+    margin-top: 15vh;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+#info{
+    width: 50%;
+}
+
+#info h3{
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+#info p{
+    width: 85%;
+    margin-bottom: 15px;
+    font-weight: 900;
+}
+
+#page2{
+    min-height: 200vh;
+    width: 100%;
+    background: url(black-block.jpg);
+}
+
+#page2-contaner{
+    position: relative;
+    top: 16vh;
+    left: 32vh;
+    z-index: 99;
+    height: 105vh;
+    width: 154vh;
+    z-index: 1;
+    background-color: black;
+    
+}
+
+
+#page2-nav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    height: 22vh;
+    width: 100%;
+    color: #fff;padding: 15px;
+    margin-bottom: 7vh;
+}
+
+
+#page2-nav h1{
+    font-size: 22vh;
+    font-weight: 100;
+    position: absolute;
+    right: 40vh;
+    top: -1px;
+}
+
+#page2-nav img{
+    position: absolute;
+    bottom: 8px;
+    height: 30px;
+    width: 30px;
+}
+
+#page2-nav a{
+    position: absolute;
+    bottom: 8px;
+    color: #fff;
+    font-size: 22px;
+    left: 9vh;
+}
+
+#page2-div{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#page2-div-left{
+    height: 100%;
+    width: 190%;
+    color:#fff;
+}
+
+#page2-div-left h1{
+    font-size: 190px;
+    
+}
+
+#page2-div-left p{
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+#page2-div-right{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+#page2-div-right #img-video{
+    position: absolute;
+}
+
+#page2-div-right #img-video video{
+    position: absolute;
+    right: 20px;
+    top: 120px;
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+#page3{
+    width: 100%;
+    height: 100vh;
+    background: url(black-block.jpg);
+    position: relative;
+    top:-15px
+}
+
+#page3-contaner{
+    width: 150vh;
+    height: 75vh;
+    background-color: black;
+    position: relative;
+    left: 30vh;
+    top: 15vh;
+}
+
+#page3-nav #head{
+    display: flex;
+    justify-content: flex-start;
+    height: 22vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+
+#head a{
+    position: absolute;
+    bottom: 15%;
+    color: #fff;
+    font-size: 22px;
+}
+
+#head h1{
+    font-size: 20vh;
+    position: absolute;
+    left: 22vh;
+}
+
+#page3-div{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+#page3-div-left{
+    height: 100%;
+    width: 65%;
+}
+
+#page3-div-left p{
+    font-weight: 900;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+#page3-div-left a{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#page3-div-right img{
+    z-index: 59;
+    position: relative;
+}
+
+
+#page4{
+    width: 100%;
+    height: 100vh;
+    background: url(black-block.jpg);
+    position: relative;
+    top:-15px;
+}
